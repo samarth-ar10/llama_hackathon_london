@@ -1,0 +1,40 @@
+/* styles.css */
+.overlay {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    z-index: 10000;
+    font-family: Arial, sans-serif;
+    width: 250px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.scroll-up-button,
+.scroll-down-button,
+.snapshot-button {
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.scroll-up-button {
+    background-color: #4CAF50;
+}
+
+.scroll-down-button {
+    background-color: #2196F3;
+}
+
+.snapshot-button {
+    background-color: #f44336;
+}
